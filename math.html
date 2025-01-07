@@ -3,18 +3,75 @@
     <head>
         <link rel="icon" type="image/x-icon" href="https://google.com/favicon.ico">
         <title>Google</title>
-        <link rel="stylesheet" href="styles.css">
         <style>
-            p {
-                font-family: 'Trebuchet MS';
-                text-decoration: solid;
-            }
+p {
+    font-family: 'Trebuchet MS';
+    text-decoration: solid;
+    font-size: 15px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: dodgerblue;
+    color:white;
+    font-size: 50px;
+}
+
+.container {
+        padding: 10px;
+        background-color: white;
+        text-align: center;
+        margin: auto;
+        height: 150px;
+        width: 150px;
+        border-radius: 10px;
+
+}
+
+.container img {
+  height: 125px;
+  width: 125px;
+}
+
+.container:hover {
+  transform: scale(1.1);
+}
+
+.link-button {
+    background-color: #008cff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    border-color: aliceblue;
+    border: 2px;
+    font-size: 20px;
+  }
+
+    
+.link-button:hover {
+    background-color: #008cff8b;
+    transform: scale(1.1);
+  }
+
+
+
+
+html {
+        background-color:lightslategray;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode';
+}
         </style>
     </head>
 
     <body>
+        <a style="margin: 10%" class="link-button" href="/index.html">Home</a>
         <h1>Games</h1>
-        <a class="link-button" href="/math.html">Games</a>
+
         <p><br>Enjoy!</p>
         <br>
         <div href="/hw/2048.html" class="container">
