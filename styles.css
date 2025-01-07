@@ -17,6 +17,15 @@ h1 {
 
 }
 
+.container img {
+  height: 125px;
+  width: 75px;
+}
+
+.container:hover {
+  transform: scale(1.1);
+}
+
 .link-button {
     background-color: #008cff;
     color: white;
