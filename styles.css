@@ -11,14 +11,14 @@ h1 {
         text-align: center;
         margin: auto;
         height: 150px;
-        width: 125px;
+        width: 150px;
         border-radius: 10px;
 
 }
 
 .container img {
   height: 125px;
-  width: 100px;
+  width: 125px;
 }
 
 .container:hover {
