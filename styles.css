@@ -12,6 +12,8 @@ h1 {
         margin: auto;
         height: 125px;
         width: 75;
+        top: 50%;
+        bottom: 50%;
 
 }
 
