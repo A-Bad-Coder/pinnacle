@@ -8,6 +8,10 @@ h1 {
 .container {
         padding: 10px;
         background-color: white;
+        text-align: center;
+        margin: auto;
+        height: 125px;
+        width: 75;
 
 }
 
