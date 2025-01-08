@@ -65,7 +65,8 @@ p {
   margin-top: 5%;
   margin-right: 5%;
   border-radius: 40px;
-  position: fixed;
+  position: absolute;
+  top: 1%;
 }
 
 .taskbar a {
@@ -75,6 +76,7 @@ font-size: 15px;
 margin-top: 2.5px;
 margin-bottom: 2.5px;
 color: white;
+vertical-align: middle;
 }
 
 .taskbar a:hover {
