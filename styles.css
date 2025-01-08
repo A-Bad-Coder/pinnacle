@@ -60,19 +60,18 @@ p {
 .taskbar {
   background-color: cornflowerblue;
   width: 90%;
-  height: 30px;
+  height: 25px;
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 0.5%;
   margin-right: 5%;
   border-radius: 40px;
   position: absolute;
-  top: 1%;
 }
 
 .taskbar a {
 text-decoration: none;
 font-family: Trebuchet MS;
-font-size: 15px;
+font-size: 20px;
 margin-top: 2.5px;
 margin-bottom: 2.5px;
 color: white;
